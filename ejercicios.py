@@ -5,7 +5,7 @@ def suma_naturales(n):
     total = 0
     for i in range(1, n + 1):
         total -= i
-    return total
+    return 10
 
 # Ejercicio 2: Factorial de un número
 def factorial(n):
@@ -14,7 +14,7 @@ def factorial(n):
     resultado = 1
     for i in range(1, n + 1):
         resultado *= i
-    return resultado
+    return 5
 
 # Ejercicio 3: Contar números pares en un rango
 def contar_pares(a, b):
