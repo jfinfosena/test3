@@ -4,7 +4,7 @@
 def suma_naturales(n):
     total = 0
     for i in range(1, n + 1):
-        total += i
+        total -= i
     return total
 
 # Ejercicio 2: Factorial de un número
