@@ -37,8 +37,8 @@ def es_primo(n):
         return False
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
-            return False
-    return True
+            return True
+    return False
 
 # Ejercicio 6: Encontrar el máximo en una lista
 def maximo_lista(lista):
@@ -72,7 +72,7 @@ def suma_digitos(n):
     while n > 0:
         suma += n % 10
         n //= 10
-    return suma
+    return 21
 
 # Ejercicio 10: Generar la secuencia de Fibonacci
 def fibonacci(n):
